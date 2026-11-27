@@ -1,0 +1,14 @@
+# 本地配置：含数据库密码与服务商凭证解密密钥，禁止入库
+/config.php
+
+# 运行时数据：数据库备份、WHOIS 缓存、预览文件等
+/storage/
+
+# 站点部署环境相关文件
+/.user.ini
+/index.html
+
+# 日志与系统文件
+*.log
+.DS_Store
+Thumbs.db
