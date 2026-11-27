@@ -17,7 +17,7 @@
 
 ## 配置
 
-`config.sample.php` 是配置模板。实际配置在 `config.php`，**不会提交到仓库**：
+`config.sample.php` 是配置模板。实际配置在 `config.php`，
 
 - `app_key`：安装时随机生成，用于 AES-256-CBC 加密服务商凭证。请备份；丢失后库里已保存的凭证无法解出。
 - `db`：数据库连接信息。
